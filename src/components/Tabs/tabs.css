@@ -1,0 +1,26 @@
+.tabs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.tabs > button {
+  outline: none;
+  border: none;
+  padding: 10px;
+  height: 50px;
+  width: 200px;
+  background-color: transparent;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+
+  margin-left: 10px;
+  border-radius: 7px;
+  transition: all 0.5s ease-in-out;
+}
+.tabs > button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
